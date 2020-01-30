@@ -1,13 +1,13 @@
 public class GenericsExample {
     public static void main(String[] args) {
-        Example<String> obj = new Example<>();
+        Examples<String> obj = new Examples<>();
         obj.insert("yash");
         String name = obj.display();
         System.out.println(name);
     }
 }
 
-class Example<T> {
+class Examples<T> {
     T var;
 
     public void insert(T var1) {
