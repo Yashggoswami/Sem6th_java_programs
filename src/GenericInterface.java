@@ -7,6 +7,7 @@ interface Example<T> {
 
 }
 
+
 public class GenericInterface {
     public static void main(String[] args) {
         Example1 obj = new Example1();
