@@ -7,7 +7,7 @@ public class UsingjoinMethod {
         t1.start();
         try {
             //next thread will wait until t1 dies
-            t1.join();
+            t1.join(1500);
         } catch (Exception e) {
             System.out.println(e);
         }
