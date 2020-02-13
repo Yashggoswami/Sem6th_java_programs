@@ -5,9 +5,11 @@ public class MultithreadgetPriority extends Thread {
         m1.start();
         m2.start();
 
+
         m1.setPriority(MIN_PRIORITY);
         System.out.println(m1.getPriority());
         System.out.println(m2.getPriority());
+        System.out.println(m1.getId());
     }
 
     public void run() {
