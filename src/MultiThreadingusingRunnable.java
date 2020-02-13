@@ -1,6 +1,6 @@
 public class MultiThreadingusingRunnable {
     public static void main(String[] args) {
-        StartThread st = new StartThread();
+        StrtThread st = new StrtThread();
         Thread thread = new Thread(st);
         thread.start();
     }
