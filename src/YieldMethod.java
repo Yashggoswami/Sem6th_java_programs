@@ -12,7 +12,7 @@ public class YieldMethod extends Thread {
         m2.suspend();
         m3.start();
 
-        m1.yield();
+
         for (int i = 0; i < 3; i++) {
 
             System.out.println(Thread.currentThread().getName() + " in control");
